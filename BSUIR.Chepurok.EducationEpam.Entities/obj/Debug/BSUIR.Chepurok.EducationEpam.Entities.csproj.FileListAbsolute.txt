@@ -1,0 +1,15 @@
+D:\BSUIR\EducationEPAM\EducationEpam\BSUIR.Chepurok.EducationEpam.Entities\bin\Debug\BSUIR.Chepurok.EducationEpam.Entities.dll.config
+D:\BSUIR\EducationEPAM\EducationEpam\BSUIR.Chepurok.EducationEpam.Entities\bin\Debug\BSUIR.Chepurok.EducationEpam.Entities.dll
+D:\BSUIR\EducationEPAM\EducationEpam\BSUIR.Chepurok.EducationEpam.Entities\bin\Debug\BSUIR.Chepurok.EducationEpam.Entities.pdb
+D:\BSUIR\EducationEPAM\EducationEpam\BSUIR.Chepurok.EducationEpam.Entities\bin\Debug\EntityFramework.dll
+D:\BSUIR\EducationEPAM\EducationEpam\BSUIR.Chepurok.EducationEpam.Entities\bin\Debug\EntityFramework.SqlServer.dll
+D:\BSUIR\EducationEPAM\EducationEpam\BSUIR.Chepurok.EducationEpam.Entities\bin\Debug\Repository.Pattern.dll
+D:\BSUIR\EducationEPAM\EducationEpam\BSUIR.Chepurok.EducationEpam.Entities\bin\Debug\Repository.Pattern.Ef6.dll
+D:\BSUIR\EducationEPAM\EducationEpam\BSUIR.Chepurok.EducationEpam.Entities\bin\Debug\LinqKit.dll
+D:\BSUIR\EducationEPAM\EducationEpam\BSUIR.Chepurok.EducationEpam.Entities\bin\Debug\Repository.Pattern.Ef6.pdb
+D:\BSUIR\EducationEPAM\EducationEpam\BSUIR.Chepurok.EducationEpam.Entities\bin\Debug\Repository.Pattern.pdb
+D:\BSUIR\EducationEPAM\EducationEpam\BSUIR.Chepurok.EducationEpam.Entities\bin\Debug\EntityFramework.xml
+D:\BSUIR\EducationEPAM\EducationEpam\BSUIR.Chepurok.EducationEpam.Entities\bin\Debug\EntityFramework.SqlServer.xml
+D:\BSUIR\EducationEPAM\EducationEpam\BSUIR.Chepurok.EducationEpam.Entities\obj\Debug\BSUIR.Chepurok.EducationEpam.Entities.csprojResolveAssemblyReference.cache
+D:\BSUIR\EducationEPAM\EducationEpam\BSUIR.Chepurok.EducationEpam.Entities\obj\Debug\BSUIR.Chepurok.EducationEpam.Entities.dll
+D:\BSUIR\EducationEPAM\EducationEpam\BSUIR.Chepurok.EducationEpam.Entities\obj\Debug\BSUIR.Chepurok.EducationEpam.Entities.pdb
