@@ -10,6 +10,10 @@ using Repository.Pattern.Ef6;
 using Repository.Pattern.Repositories;
 using BSUIR.Chepurok.EducationEpam.Service.Interfaces;
 using BSUIR.Chepurok.EducationEpam.Service.Implements;
+using BSUIR.Chepurok.EducationEpam.BLL.Interfaces;
+using BSUIR.Chepurok.EducationEpam.BLL.Services;
+using AutoMapper;
+using BSUIR.Chepurok.EducationEpam.BLL.Entities;
 
 namespace BSUIR.Chepurok.EducationEpam.DI.App_Start
 {
@@ -75,7 +79,12 @@ namespace BSUIR.Chepurok.EducationEpam.DI.App_Start
             .RegisterType<IEducationService<Role>, EducationService<Role>>()
             .RegisterType<IEducationService<Test>, EducationService<Test>>()
             .RegisterType<IEducationService<Topic>, EducationService<Topic>>()
-            .RegisterType<IEducationService<User>, EducationService<User>>();
+            .RegisterType<IEducationService<User>, EducationService<User>>()
+
+            .RegisterType<IRoleServiceBLL, RoleServiceBLL>();
+
+          Mapper.CreateMap<RoleEntity, Role>();
+
         }
     }
 }

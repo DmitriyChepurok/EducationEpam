@@ -46,3 +46,10 @@ D:\BSUIR\EducationEPAM\EducationEpam\BSUIR.Chepurok.EducationEpam.DI\bin\Debug\S
 D:\BSUIR\EducationEPAM\EducationEpam\BSUIR.Chepurok.EducationEpam.DI\obj\Debug\BSUIR.Chepurok.EducationEpam.DI.csprojResolveAssemblyReference.cache
 D:\BSUIR\EducationEPAM\EducationEpam\BSUIR.Chepurok.EducationEpam.DI\obj\Debug\BSUIR.Chepurok.EducationEpam.DI.dll
 D:\BSUIR\EducationEPAM\EducationEpam\BSUIR.Chepurok.EducationEpam.DI\obj\Debug\BSUIR.Chepurok.EducationEpam.DI.pdb
+D:\BSUIR\EducationEPAM\EducationEpam\BSUIR.Chepurok.EducationEpam.DI\bin\Debug\AutoMapper.Net4.dll
+D:\BSUIR\EducationEPAM\EducationEpam\BSUIR.Chepurok.EducationEpam.DI\bin\Debug\BSUIR.Chepurok.EducationEpam.BLL.dll
+D:\BSUIR\EducationEPAM\EducationEpam\BSUIR.Chepurok.EducationEpam.DI\bin\Debug\AutoMapper.dll
+D:\BSUIR\EducationEPAM\EducationEpam\BSUIR.Chepurok.EducationEpam.DI\bin\Debug\BSUIR.Chepurok.EducationEpam.BLL.pdb
+D:\BSUIR\EducationEPAM\EducationEpam\BSUIR.Chepurok.EducationEpam.DI\bin\Debug\AutoMapper.pdb
+D:\BSUIR\EducationEPAM\EducationEpam\BSUIR.Chepurok.EducationEpam.DI\bin\Debug\AutoMapper.xml
+D:\BSUIR\EducationEPAM\EducationEpam\BSUIR.Chepurok.EducationEpam.DI\bin\Debug\AutoMapper.Net4.pdb

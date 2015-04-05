@@ -19,3 +19,10 @@ D:\BSUIR\EducationEPAM\EducationEpam\ConsoleApplication2\bin\Debug\BSUIR.Chepuro
 D:\BSUIR\EducationEPAM\EducationEpam\ConsoleApplication2\bin\Debug\Service.Pattern.dll
 D:\BSUIR\EducationEPAM\EducationEpam\ConsoleApplication2\bin\Debug\BSUIR.Chepurok.EducationEpam.Service.pdb
 D:\BSUIR\EducationEPAM\EducationEpam\ConsoleApplication2\bin\Debug\Service.Pattern.pdb
+D:\BSUIR\EducationEPAM\EducationEpam\ConsoleApplication2\bin\Debug\AutoMapper.Net4.dll
+D:\BSUIR\EducationEPAM\EducationEpam\ConsoleApplication2\bin\Debug\AutoMapper.dll
+D:\BSUIR\EducationEPAM\EducationEpam\ConsoleApplication2\bin\Debug\AutoMapper.pdb
+D:\BSUIR\EducationEPAM\EducationEpam\ConsoleApplication2\bin\Debug\AutoMapper.xml
+D:\BSUIR\EducationEPAM\EducationEpam\ConsoleApplication2\bin\Debug\AutoMapper.Net4.pdb
+D:\BSUIR\EducationEPAM\EducationEpam\ConsoleApplication2\bin\Debug\BSUIR.Chepurok.EducationEpam.BLL.dll
+D:\BSUIR\EducationEPAM\EducationEpam\ConsoleApplication2\bin\Debug\BSUIR.Chepurok.EducationEpam.BLL.pdb
