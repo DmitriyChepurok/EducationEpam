@@ -14,6 +14,7 @@ namespace BSUIR.Chepurok.EducationEpam.Service.Interfaces
 {
   public interface IEducationService<T> : IService<T> where T : IObjectState
   {
+    //to do IMPLEMENT
     Task<IEnumerable<T>> SelectAllAsync();
     IEnumerable<T> SelectAll();
   }
