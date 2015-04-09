@@ -19,6 +19,7 @@ namespace ConsoleApplication2
       var db = new EducationEpamDbContext();
       db.Database.CreateIfNotExists();
       db.Database.Initialize(true);
+      Console.WriteLine("Done!");
       Console.ReadKey();
     }
   }

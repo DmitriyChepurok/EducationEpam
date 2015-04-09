@@ -104,6 +104,8 @@
   <ItemGroup>
     <Compile Include="App_Start\UnityConfig.cs" />
     <Compile Include="App_Start\UnityMvcActivator.cs" />
+    <Compile Include="AutoMapper\AutoMapperWebConfiguration.cs" />
+    <Compile Include="AutoMapper\EducationProfile.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -82,9 +82,6 @@ namespace BSUIR.Chepurok.EducationEpam.DI.App_Start
             .RegisterType<IEducationService<User>, EducationService<User>>()
 
             .RegisterType<IRoleServiceBLL, RoleServiceBLL>();
-
-          Mapper.CreateMap<RoleEntity, Role>();
-
         }
     }
 }
