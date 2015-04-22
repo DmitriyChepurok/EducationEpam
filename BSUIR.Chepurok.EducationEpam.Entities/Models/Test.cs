@@ -11,6 +11,7 @@ namespace BSUIR.Chepurok.EducationEpam.Entities.Models
     public int TestID { get; set; }
     public int LessionID { get; set; }
     public int UserID { get; set; }
+    public DateTime Created { get; set; }
     public virtual Lession Lession { get; set; }
     public virtual ICollection<Question> Questions { get; set; }
     public double Score { get; set; }
