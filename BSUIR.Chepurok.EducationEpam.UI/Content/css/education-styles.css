@@ -1,3 +1,15 @@
 ﻿.container-layout{
   padding-top: 80px;
 }
+
+.panel-badge{
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    width:40em;
+    height:28em;
+    margin-top: -14em; /*set to a negative number 1/2 of your height*/
+    margin-left: -20em; /*set to a negative number 1/2 of your width*/
+    border: 1px solid #ccc;
+    background-color: #f3f3f3;
+}

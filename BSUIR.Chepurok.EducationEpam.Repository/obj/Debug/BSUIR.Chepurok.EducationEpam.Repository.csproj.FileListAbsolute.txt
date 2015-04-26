@@ -1,8 +1,5 @@
 D:\BSUIR\EducationEPAM\EducationEpam\BSUIR.Chepurok.EducationEpam.Repository\bin\Debug\BSUIR.Chepurok.EducationEpam.Repository.dll
 D:\BSUIR\EducationEPAM\EducationEpam\BSUIR.Chepurok.EducationEpam.Repository\bin\Debug\BSUIR.Chepurok.EducationEpam.Repository.pdb
-D:\BSUIR\EducationEPAM\EducationEpam\BSUIR.Chepurok.EducationEpam.Repository\obj\Debug\BSUIR.Chepurok.EducationEpam.Repository.dll
-D:\BSUIR\EducationEPAM\EducationEpam\BSUIR.Chepurok.EducationEpam.Repository\obj\Debug\BSUIR.Chepurok.EducationEpam.Repository.pdb
-D:\BSUIR\EducationEPAM\EducationEpam\BSUIR.Chepurok.EducationEpam.Repository\obj\Debug\BSUIR.Chepurok.EducationEpam.Repository.csprojResolveAssemblyReference.cache
 D:\BSUIR\EducationEPAM\EducationEpam\BSUIR.Chepurok.EducationEpam.Repository\bin\Debug\BSUIR.Chepurok.EducationEpam.Entities.dll
 D:\BSUIR\EducationEPAM\EducationEpam\BSUIR.Chepurok.EducationEpam.Repository\bin\Debug\Repository.Pattern.dll
 D:\BSUIR\EducationEPAM\EducationEpam\BSUIR.Chepurok.EducationEpam.Repository\bin\Debug\Repository.Pattern.Ef6.dll
@@ -12,3 +9,6 @@ D:\BSUIR\EducationEPAM\EducationEpam\BSUIR.Chepurok.EducationEpam.Repository\bin
 D:\BSUIR\EducationEPAM\EducationEpam\BSUIR.Chepurok.EducationEpam.Repository\bin\Debug\Repository.Pattern.Ef6.pdb
 D:\BSUIR\EducationEPAM\EducationEpam\BSUIR.Chepurok.EducationEpam.Repository\bin\Debug\Repository.Pattern.pdb
 D:\BSUIR\EducationEPAM\EducationEpam\BSUIR.Chepurok.EducationEpam.Repository\bin\Debug\EntityFramework.xml
+D:\BSUIR\EducationEPAM\EducationEpam\BSUIR.Chepurok.EducationEpam.Repository\obj\Debug\BSUIR.Chepurok.EducationEpam.Repository.csprojResolveAssemblyReference.cache
+D:\BSUIR\EducationEPAM\EducationEpam\BSUIR.Chepurok.EducationEpam.Repository\obj\Debug\BSUIR.Chepurok.EducationEpam.Repository.dll
+D:\BSUIR\EducationEPAM\EducationEpam\BSUIR.Chepurok.EducationEpam.Repository\obj\Debug\BSUIR.Chepurok.EducationEpam.Repository.pdb

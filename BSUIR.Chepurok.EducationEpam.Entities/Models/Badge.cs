@@ -11,12 +11,12 @@ namespace BSUIR.Chepurok.EducationEpam.Entities.Models
   {
     public Badge()
     {
-      this.Users = new List<User>();
+      this.SwapBadges = new List<SwapBadge>();
     }
     public int BadgeID { get; set; }
-    public int BadgeTo { get; set; }
     public string Image { get; set; }
+    public string Title { get; set; }
     public string Description { get; set; }
-    public virtual ICollection<User> Users { get; set; }
+    public virtual ICollection<SwapBadge> SwapBadges { get; set; }
   }
 }

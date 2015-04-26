@@ -119,10 +119,17 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
+    <Compile Include="Controllers\ForumController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LessionController.cs" />
+    <Compile Include="Controllers\PeopleController.cs" />
+    <Compile Include="CoreHelpers\LayoutInjecterAttribute.cs" />
+    <Compile Include="CoreHelpers\UrlExtensions.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\DashboardViewModel.cs" />
     <Compile Include="Models\LessionsCategoriesViewModel.cs" />
     <Compile Include="Models\LogOnViewModel.cs" />
     <Compile Include="Models\RegisterViewModel.cs" />
@@ -184,6 +191,18 @@
     <Content Include="Content\css\vendor.css" />
     <Content Include="Content\css\vendor.min.css" />
     <Content Include="Content\fonts\fontawesome-webfont.svg" />
+    <Content Include="Content\images\badges\1.PNG" />
+    <Content Include="Content\images\badges\10.PNG" />
+    <Content Include="Content\images\badges\11.PNG" />
+    <Content Include="Content\images\badges\12.PNG" />
+    <Content Include="Content\images\badges\2.PNG" />
+    <Content Include="Content\images\badges\3.PNG" />
+    <Content Include="Content\images\badges\4.PNG" />
+    <Content Include="Content\images\badges\5.PNG" />
+    <Content Include="Content\images\badges\6.PNG" />
+    <Content Include="Content\images\badges\7.PNG" />
+    <Content Include="Content\images\badges\8.PNG" />
+    <Content Include="Content\images\badges\9.PNG" />
     <Content Include="Content\images\flags\Flag_of_France.svg" />
     <Content Include="Content\images\flags\Flag_of_Germany.svg" />
     <Content Include="Content\images\flags\Flag_of_Poland.svg" />
@@ -273,17 +292,17 @@
     <Content Include="fonts\picto-foundry-vehicle-navigation.svg" />
     <Content Include="fonts\picto-foundry-weather.svg" />
     <Content Include="Global.asax" />
-    <Content Include="js\jplayer\addons\jquery.jplayer.swf" />
-    <Content Include="js\plugins\maps_google\jquery-ui-map\addons\infobox.js" />
-    <Content Include="js\plugins\maps_google\jquery-ui-map\addons\infobox_packed.js" />
-    <Content Include="js\plugins\maps_google\jquery-ui-map\addons\markerclusterer.min.js" />
-    <Content Include="js\plugins\maps_google\jquery-ui-map\ui\jquery.ui.map.extensions.js" />
-    <Content Include="js\plugins\maps_google\jquery-ui-map\ui\jquery.ui.map.js" />
-    <Content Include="js\plugins\maps_google\jquery-ui-map\ui\jquery.ui.map.microdata.js" />
-    <Content Include="js\plugins\maps_google\jquery-ui-map\ui\jquery.ui.map.microformat.js" />
-    <Content Include="js\plugins\maps_google\jquery-ui-map\ui\jquery.ui.map.overlays.js" />
-    <Content Include="js\plugins\maps_google\jquery-ui-map\ui\jquery.ui.map.rdfa.js" />
-    <Content Include="js\plugins\maps_google\jquery-ui-map\ui\jquery.ui.map.services.js" />
+    <Content Include="Scripts\js\jplayer\addons\jquery.jplayer.swf" />
+    <Content Include="Scripts\js\plugins\maps_google\jquery-ui-map\addons\infobox.js" />
+    <Content Include="Scripts\js\plugins\maps_google\jquery-ui-map\addons\infobox_packed.js" />
+    <Content Include="Scripts\js\plugins\maps_google\jquery-ui-map\addons\markerclusterer.min.js" />
+    <Content Include="Scripts\js\plugins\maps_google\jquery-ui-map\ui\jquery.ui.map.extensions.js" />
+    <Content Include="Scripts\js\plugins\maps_google\jquery-ui-map\ui\jquery.ui.map.js" />
+    <Content Include="Scripts\js\plugins\maps_google\jquery-ui-map\ui\jquery.ui.map.microdata.js" />
+    <Content Include="Scripts\js\plugins\maps_google\jquery-ui-map\ui\jquery.ui.map.microformat.js" />
+    <Content Include="Scripts\js\plugins\maps_google\jquery-ui-map\ui\jquery.ui.map.overlays.js" />
+    <Content Include="Scripts\js\plugins\maps_google\jquery-ui-map\ui\jquery.ui.map.rdfa.js" />
+    <Content Include="Scripts\js\plugins\maps_google\jquery-ui-map\ui\jquery.ui.map.services.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Content\css\fonts\slick.eot" />
@@ -337,7 +356,7 @@
     <Content Include="fonts\picto-foundry-weather.eot" />
     <Content Include="fonts\picto-foundry-weather.ttf" />
     <Content Include="fonts\picto-foundry-weather.woff" />
-    <Content Include="js\data\google_maps\markers.json" />
+    <Content Include="Scripts\js\data\google_maps\markers.json" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -426,10 +445,19 @@
     <Content Include="Views\Account\Login.cshtml" />
     <Content Include="Views\Home\Lessions.cshtml" />
     <Content Include="Views\Home\News.cshtml" />
+    <Content Include="Views\Admin\AddNews.cshtml" />
+    <Content Include="Views\Admin\News.cshtml" />
+    <Content Include="Views\Lession\LessionRequestToCreate.cshtml" />
+    <Content Include="Views\Lession\Lessions.cshtml" />
+    <Content Include="Views\Shared\_LayoutPageAdmin.cshtml" />
+    <Content Include="Views\Home\ViewBadge.cshtml" />
+    <Content Include="Views\Home\ViewBadgePartial.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="js\plugins\maps_google\jquery-ui-map\ui\min\" />
+    <Folder Include="Scripts\js\plugins\maps_google\jquery-ui-map\ui\min\" />
+    <Folder Include="Views\Forum\" />
+    <Folder Include="Views\People\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

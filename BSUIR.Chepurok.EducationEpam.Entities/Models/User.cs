@@ -13,10 +13,11 @@ namespace BSUIR.Chepurok.EducationEpam.Entities.Models
     {
       this.News = new List<News>();
       this.Likes = new List<Like>();
-      this.Badges = new List<Badge>();
+      this.SwapBadges = new List<SwapBadge>();
       this.Topics = new List<Topic>();
       this.Posts = new List<Post>();
       this.Lessions = new List<Lession>();
+      this.Skills = new List<Skill>();
     }
     [Key]
     public int UserID { get; set; }
@@ -30,9 +31,10 @@ namespace BSUIR.Chepurok.EducationEpam.Entities.Models
     public virtual Role Role { get; set; }
     public virtual ICollection<Like> Likes { get; set; }
     public virtual ICollection<News> News { get; set; }
-    public virtual ICollection<Badge> Badges { get; set; }
+    public virtual ICollection<SwapBadge> SwapBadges { get; set; }
     public virtual ICollection<Topic> Topics { get; set; }
     public virtual ICollection<Post> Posts { get; set; }
     public virtual ICollection<Lession> Lessions { get; set; }
+    public virtual ICollection<Skill> Skills { get; set; }
   }
 }

@@ -43,7 +43,7 @@ namespace BSUIR.Chepurok.EducationEpam.UI.Controllers
           }
           if (user != null && user.RoleID == 1)
           {
-            return RedirectToAction("Projects", "Admin");
+            return RedirectToAction("News", "Admin");
           }
           return RedirectToAction("Dashboard", "Home");
         }

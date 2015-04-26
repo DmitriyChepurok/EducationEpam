@@ -22,6 +22,7 @@ namespace BSUIR.Chepurok.EducationEpam.Entities.Models
     public DateTime DateAndTime { get; set; }
     public string Place { get; set; }
     public string Link { get; set; }
+    public bool IsApproved { get; set; }
     public virtual Category Category { get; set; }
     public virtual ICollection<User> Users { get; set; }
     public virtual ICollection<Comment> Comments { get; set; }

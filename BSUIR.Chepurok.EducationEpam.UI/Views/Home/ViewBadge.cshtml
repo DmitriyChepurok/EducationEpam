@@ -1,0 +1,19 @@
+﻿@model BSUIR.Chepurok.EducationEpam.BLL.Entities.SwapBadgeEntity
+
+<div class="st-container">
+  <div class="panel-badge">
+    <div class="v-middle">
+      <div class="panel">
+        <div class="panel-heading">
+          @Model.Title
+        </div>
+        <div class="panel-body">
+          @Html.Partial("ViewBadgePartial", Model)
+        </div>
+        <div class="panel-footer text-right">
+          <a href="#" class="btn" data-dismiss="modal">Close</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

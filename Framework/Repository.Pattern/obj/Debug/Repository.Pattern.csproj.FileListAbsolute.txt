@@ -20,4 +20,3 @@ D:\BSUIR\EducationEPAM\EducationEpam\Framework\Repository.Pattern\bin\Debug\Repo
 D:\BSUIR\EducationEPAM\EducationEpam\Framework\Repository.Pattern\bin\Debug\Repository.Pattern.pdb
 D:\BSUIR\EducationEPAM\EducationEpam\Framework\Repository.Pattern\obj\Debug\Repository.Pattern.dll
 D:\BSUIR\EducationEPAM\EducationEpam\Framework\Repository.Pattern\obj\Debug\Repository.Pattern.pdb
-D:\BSUIR\EducationEPAM\EducationEpam\Framework\Repository.Pattern\obj\Debug\Repository.Pattern.csprojResolveAssemblyReference.cache
