@@ -1,8 +1,6 @@
 ﻿using Repository.Pattern.Ef6;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace BSUIR.Chepurok.EducationEpam.Entities.Models
 {
@@ -10,7 +8,7 @@ namespace BSUIR.Chepurok.EducationEpam.Entities.Models
   {
     public Lession()
     {
-      this.Users = new List<User>();
+      this.Subscriptions = new List<Subscription>();
       this.Comments = new List<Comment>();
       this.Tests = new List<Test>();
     }
@@ -24,7 +22,7 @@ namespace BSUIR.Chepurok.EducationEpam.Entities.Models
     public string Link { get; set; }
     public bool IsApproved { get; set; }
     public virtual Category Category { get; set; }
-    public virtual ICollection<User> Users { get; set; }
+    public virtual ICollection<Subscription> Subscriptions { get; set; }
     public virtual ICollection<Comment> Comments { get; set; }
     public virtual ICollection<Test> Tests { get; set; }
   }

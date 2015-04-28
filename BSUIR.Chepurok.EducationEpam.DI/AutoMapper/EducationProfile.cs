@@ -29,7 +29,7 @@ namespace BSUIR.Chepurok.EducationEpam.DI.AutoMapper
 
       Mapper.CreateMap<Lession, LessionEntity>()
         .ForMember(d => d.NameCategory, s => s.MapFrom(t => t.Category.Title))
-        .ForMember(d => d.NameUser, s => s.ResolveUsing<UserLessionResolver>())
+        //.ForMember(d => d.NameUser, s => s.ResolveUsing<UserLessionResolver>())
         .ForMember(d => d.DateAndTime, s => s.MapFrom(t => t.DateAndTime.ToString("F")));  
       Mapper.CreateMap<LessionEntity, Lession>()
         .ForMember(d => d.DateAndTime, s => s.MapFrom(t => Convert.ToDateTime(t.DateAndTime)));
@@ -56,6 +56,11 @@ namespace BSUIR.Chepurok.EducationEpam.DI.AutoMapper
         .ForMember(d => d.Created, s => s.MapFrom(t => t.Created.ToString("F")));  
       Mapper.CreateMap<SwapBadgeEntity, SwapBadge>()
         .ForMember(d => d.Created, s => s.MapFrom(t => Convert.ToDateTime(t.Created)));
+
+      Mapper.CreateMap<Subscription, SubscriptionEntity>()
+        .ForMember(d => d.UserName, s => s.MapFrom(t => t.User.Firstname + " " + t.User.Surname))
+        .ForMember(d => d.LessionTitle, s => s.MapFrom(t => t.Lession.TitleLession));
+      Mapper.CreateMap<SubscriptionEntity, Subscription>();
 
       Mapper.CreateMap<Post, PostEntity>()
         .ForMember(d => d.NameTopic, s => s.MapFrom(t => t.Topic.NameTopic))
@@ -91,13 +96,12 @@ namespace BSUIR.Chepurok.EducationEpam.DI.AutoMapper
       Mapper.CreateMap<UserEntity, User>();
     }
   }
-
-  public class UserLessionResolver : ValueResolver<Lession, string>
-  {
-    protected override string ResolveCore(Lession source)
-    {
-      var user = source.Users.First(r => r.UserID == source.CreatorID);
-      return user.Firstname + " " + user.Surname;
-    }
-  }
+  //public class UserLessionResolver : ValueResolver<Lession, string>
+  //{
+  //  protected override string ResolveCore(Lession source)
+  //  {
+  //    var user = source.User.sFirst(r => r.UserID == source.CreatorID);
+  //    return user.Firstname + " " + user.Surname;
+  //  }
+  //}
 }

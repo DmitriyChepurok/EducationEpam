@@ -1,6 +1,6 @@
 ﻿@model BSUIR.Chepurok.EducationEpam.UI.Models.DashboardViewModel
 @{
-    ViewBag.Title = "Home Page";
+    ViewBag.Title = "Dashboard";
 }
 
 <div class="container-layout">
@@ -77,9 +77,6 @@
                   @foreach (var item in Model.SwapBadges)
                   {
                     <div class="icon-block half img-circle bg-white">
-                      @*<img src="~/Content/images/badges/2.png" alt="badge1" class="img-circle width-60" />*@
-                      @*<img src="@Url.ImagePath(item.Image)" alt="badge" class="img-circle width-60" />*@
-                      
                       <a data-toggle="modal" onclick="showModal('#viewModalContainerID', '#viewModalBodyID', @item.SwapBadgeID)">
                         <img src="@Url.ImagePath(item.Image)" alt="badge" class="img-circle width-60">
                       </a>

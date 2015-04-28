@@ -63,6 +63,35 @@ namespace BSUIR.Chepurok.EducationEpam.UI.Controllers
       return View(list);
     }
 
+    [HttpGet]
+    public async Task<ActionResult> AddBadge(int userId)
+    {
+      var user = await _userService.FindAsync(userId);
+      var model = new AdditionBadgeViewModel{
+        Badges = _badgeService.SelectAll(),
+        UserNameTo = user.NameUser,
+        UserToID = user.UserID
+      };
+      return View(model);
+    }
+
+    [HttpPost]
+    public ActionResult AddBadge(AdditionBadgeViewModel entity)
+    {
+      var user = _userService.FindByEmail(User.Identity.Name);
+      var swapEntity = new SwapBadgeEntity
+      {
+        BadgeID = entity.BadgeID,
+        Comment = entity.Comment,
+        Created = DateTime.Now.ToString("F"),
+        UserID = user.UserID,
+        UserToID = entity.UserToID
+      };
+      _swapService.Insert(swapEntity);
+      return RedirectToAction("ProfileView", "People", new { id = entity.UserToID });
+    }
+
+
     public PartialViewResult ViewSwapBadge(int id)
     {
       return PartialView("ViewBadge",_swapService.Find(id));

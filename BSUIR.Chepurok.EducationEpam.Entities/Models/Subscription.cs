@@ -1,16 +1,14 @@
 ﻿using Repository.Pattern.Ef6;
-using System;
 
 namespace BSUIR.Chepurok.EducationEpam.Entities.Models
 {
-  public class Comment : Entity
+  public class Subscription : Entity
   {
-    public int CommentID { get; set; }
+    public int SubscriptionID { get; set; }
     public int LessionID { get; set; }
     public int UserID { get; set; }
-    public string ContentComment { get; set; }
-    public DateTime Created { get; set; }
-    public virtual User User { get; set; }
+
     public virtual Lession Lession { get; set; }
+    public virtual User User { get; set; }
   }
 }

@@ -61,6 +61,7 @@
     <Compile Include="Models\Question.cs" />
     <Compile Include="Models\Role.cs" />
     <Compile Include="Models\Skill.cs" />
+    <Compile Include="Models\Subscription.cs" />
     <Compile Include="Models\SwapBadge.cs" />
     <Compile Include="Models\Test.cs" />
     <Compile Include="Models\Topic.cs" />

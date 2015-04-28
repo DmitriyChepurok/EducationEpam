@@ -129,6 +129,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\AdditionBadgeViewModel.cs" />
     <Compile Include="Models\DashboardViewModel.cs" />
     <Compile Include="Models\LessionsCategoriesViewModel.cs" />
     <Compile Include="Models\LogOnViewModel.cs" />
@@ -452,12 +453,16 @@
     <Content Include="Views\Shared\_LayoutPageAdmin.cshtml" />
     <Content Include="Views\Home\ViewBadge.cshtml" />
     <Content Include="Views\Home\ViewBadgePartial.cshtml" />
+    <Content Include="Views\People\Peoples.cshtml" />
+    <Content Include="Views\People\Lecturers.cshtml" />
+    <Content Include="Views\People\Profile.cshtml" />
+    <Content Include="Views\Home\AddBadge.cshtml" />
+    <Content Include="Views\Admin\AddNewUser.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Scripts\js\plugins\maps_google\jquery-ui-map\ui\min\" />
     <Folder Include="Views\Forum\" />
-    <Folder Include="Views\People\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

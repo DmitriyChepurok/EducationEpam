@@ -2,8 +2,6 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
 
 namespace BSUIR.Chepurok.EducationEpam.Entities.Models
 {
@@ -16,7 +14,7 @@ namespace BSUIR.Chepurok.EducationEpam.Entities.Models
       this.SwapBadges = new List<SwapBadge>();
       this.Topics = new List<Topic>();
       this.Posts = new List<Post>();
-      this.Lessions = new List<Lession>();
+      this.Subscriptions = new List<Subscription>();
       this.Skills = new List<Skill>();
     }
     [Key]
@@ -34,7 +32,7 @@ namespace BSUIR.Chepurok.EducationEpam.Entities.Models
     public virtual ICollection<SwapBadge> SwapBadges { get; set; }
     public virtual ICollection<Topic> Topics { get; set; }
     public virtual ICollection<Post> Posts { get; set; }
-    public virtual ICollection<Lession> Lessions { get; set; }
+    public virtual ICollection<Subscription> Subscriptions { get; set; }
     public virtual ICollection<Skill> Skills { get; set; }
   }
 }

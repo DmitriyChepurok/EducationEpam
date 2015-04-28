@@ -1,0 +1,53 @@
+﻿@model IEnumerable<BSUIR.Chepurok.EducationEpam.BLL.Entities.UserEntity>
+
+@{
+    ViewBag.Title = "Коллеги";
+}
+
+<div class="container-layout">
+  <div class="parallax overflow-hidden page-section bg-cyan-300">
+    <div class="container parallax-layer" data-opacity="true">
+      <div class="media media-grid v-middle">
+        <div class="media-left">
+          <span class="icon-block half bg-cyan-500 text-white"><i class="fa fa-file-text-o"></i></span>
+        </div>
+        <div class="media-body">
+          <h3 class="text-display-2 text-white margin-none">Коллеги</h3>
+          <p class="text-white text-subhead">Узнай больше о своих коллегах!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="page-section" style="padding-top: 40px;">
+    <div class="container">
+      <div class="row" data-toggle="isotope">
+        @foreach (var item in Model)
+        {
+          <div class="item col-xs-12 col-sm-6 col-lg-4">
+            <div class="panel panel-default paper-shadow" data-z="0.5">
+              <div class="panel-heading">
+                <h3 class="panel-title">@Html.ActionLink(item.NameUser, "Profile", "People", new { id=item.UserID })</h3>
+              </div>
+              <div class="panel-body">
+                <div class="media">
+                  <div class="media-left">
+                    <a href="website-instructor-public-profile.html">
+                      <img src="~/Content/images/people/110/guy-1.jpg" alt="people" />
+                    </a>
+                  </div>
+                  <div class="media-body">
+                    <p>@item.Email</p>
+                    <span class="label label-default">@item.PostInCompany</span>
+                  </div>
+                </div>
+              </div>
+              <div class="panel-footer text-right">
+                @Html.ActionLink("Подробнее", "ProfileView", "People", new { id = item.UserID }, new { @class = "btn btn-sm btn-primary" })
+              </div>
+            </div>
+          </div>
+        }
+      </div>
+    </div>
+  </div>
+</div>

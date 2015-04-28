@@ -34,6 +34,7 @@ namespace BSUIR.Chepurok.EducationEpam.Entities.DbContext
     public DbSet<Test> Test { get; set; }
     public DbSet<Topic> Topic { get; set; }
     public DbSet<User> User { get; set; }
+    public DbSet<Subscription> Subscriptions { get; set; }
     public DbSet<Skill> Skill { get; set; }
     public DbSet<SwapBadge> SwapBadges { get; set; }
 
